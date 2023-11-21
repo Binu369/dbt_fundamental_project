@@ -1,0 +1,1 @@
+select  max(order_date) from {{ ref('stg_orders')}}
